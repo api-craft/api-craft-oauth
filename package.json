@@ -1,0 +1,40 @@
+{
+  "name": "@api-craft/oauth",
+  "version": "1.0.0",
+  "description": "Express middleware plugin for OAuth login with Google, Apple, and Meta (Facebook & Instagram). Auto exposes OAuth routes and callbacks.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0",
+    "lint": "eslint .",
+    "start": "node example.js"
+  },
+  "keywords": [
+    "oauth",
+    "express",
+    "middleware",
+    "passport",
+    "google-oauth",
+    "apple-oauth",
+    "facebook-oauth",
+    "meta",
+    "authentication",
+    "login"
+  ],
+  "author": "Thamilselven",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/api-craft/api-craft-oauth.git"
+  },
+  "dependencies": {
+    "express-session": "^1.17.3",
+    "passport": "^0.6.0",
+    "passport-apple": "^1.2.0",
+    "passport-facebook": "^3.0.0",
+    "passport-google-oauth20": "^2.0.0"
+  },
+  "packageManager": "pnpm@10.6.3",
+  "engines": {
+    "node": ">=16"
+  }
+}
